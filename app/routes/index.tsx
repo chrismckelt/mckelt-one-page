@@ -21,7 +21,11 @@ export default function Index() {
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
               https://webmail.mail.us-west-2.awsapps.com/workmail
               </p>
-          
+            <p>
+            <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
+              <a href="https://blog.mckelt.com" title="blog">https://blog.mckelt.com</a>
+              </p>
+            </p>
             
             </div>
           </div>
