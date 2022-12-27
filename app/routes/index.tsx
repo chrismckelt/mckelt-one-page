@@ -9,28 +9,26 @@ export default function Index() {
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
             <div className="absolute inset-0">
-            
-              <div className="absolute inset-0 bg-[color:rgba(139,92,246,0.5)] mix-blend-multiply" />
+
+              <div className="absolute inset-0 bg-red-200 mix-blend-multiply" />
             </div>
             <div className="lg:pb-18 relative px-4 pt-16 pb-8 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pt-32">
               <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
-                <span className="block uppercase text-violet-500 drop-shadow-md">
-                <a href="https://webmail.mail.us-west-2.awsapps.com/workmail/?organization=mckelt">Click here for Web Mail</a>
+                <span className="block uppercase text-slate-900 drop-shadow-md">
+                  <a href="https://webmail.mail.us-west-2.awsapps.com/workmail/?organization=mckelt">Web Mail</a>
                 </span>
               </h1>
-              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-              https://webmail.mail.us-west-2.awsapps.com/workmail
+              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-slate-700 sm:max-w-3xl">
+                https://webmail.mail.us-west-2.awsapps.com/workmail
               </p>
-            <p>
-            <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-              <a href="https://blog.mckelt.com" title="blog">https://blog.mckelt.com</a>
+              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-slate-700 sm:max-w-3xl">
+                <a href="https://blog.mckelt.com" title="blog">https://blog.mckelt.com</a>
               </p>
-            </p>
-            
+
             </div>
           </div>
         </div>
- 
+
       </div>
     </main>
   );
