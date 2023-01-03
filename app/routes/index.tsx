@@ -22,9 +22,14 @@ export default function Index() {
                 https://webmail.mail.us-west-2.awsapps.com/workmail
               </p>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-slate-700 sm:max-w-3xl">
-                <a href="https://blog.mckelt.com" title="blog">https://blog.mckelt.com</a>
+                <a href="http://www.linkedin.com/in/chrismckelt" className="zocial linkedin">Linked In</a>
               </p>
-
+              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-slate-700 sm:max-w-3xl">
+                <a href="http://twitter.com/chris_mckelt" className="zocial twitter">@chris_mckelt</a>
+              </p>
+              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-slate-700 sm:max-w-3xl">
+                <a href="https://github.com/chrismckelt" className="zocial github">GitHub</a>
+              </p>
             </div>
           </div>
         </div>
