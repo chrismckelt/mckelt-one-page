@@ -37,6 +37,7 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
+        <Links></Links>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.3.0/css/zocial.css" integrity="sha256-g4vWW6AWJCUHC8m5UorUQcwX/a6Qge0afGGHRN8OrWA=" crossOrigin="anonymous" />
         <script
           async
