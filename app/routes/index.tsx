@@ -30,6 +30,9 @@ export default function Index() {
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-slate-700 sm:max-w-3xl">
                 <a href="https://github.com/chrismckelt" className="zocial github">GitHub</a>
               </p>
+              <p>
+                <img src="https://user-images.githubusercontent.com/662868/233342995-62cc186d-17c6-4dd3-87f2-6235cd402b21.png" alt="certs" /> 
+              </p>
             </div>
           </div>
         </div>
