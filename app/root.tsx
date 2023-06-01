@@ -39,21 +39,18 @@ export default function App() {
         <Meta />
         <Links></Links>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.3.0/css/zocial.css" integrity="sha256-g4vWW6AWJCUHC8m5UorUQcwX/a6Qge0afGGHRN8OrWA=" crossOrigin="anonymous" />
-        <script
-          async
-          src="https://www.google-analytics.com/analytics.js"
-        />
+     
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9649471-1"></script>
         <script
           async
           id="gtag-init"
           dangerouslySetInnerHTML={{
             __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-9649471-1', {
-                  page_path: window.location.pathname,
-                });
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+                  gtag('config', 'UA-9649471-1');
               `,
           }}
         />
